@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="URL入力" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="184dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.43"
+            android:lines="1"
+            android:maxLines="1"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/homepageregist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ホームページ設定" />
+        <Button
+            android:id="@+id/bookmarklist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BookMark一覧" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/bookmarkregist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BookMark登録" />
+        <Button
+            android:id="@+id/historylist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="履歴一覧" />
+
+    </LinearLayout>
+
+</LinearLayout>
